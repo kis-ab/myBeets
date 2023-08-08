@@ -1,0 +1,29 @@
+.btn {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: rem(18px) rem(41px);
+    border-radius: rem(100px);
+    line-height: 1;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+
+    &_theme_red {
+        background: red;
+        color: $white;
+        &:hover {
+            background: rgb(188, 8, 8);
+            color: $white;
+        }
+    }
+
+    &_theme_transparent {
+        background: transparent;
+        text-transform: none;
+        color: $white;
+        &:hover {
+            color: red;
+        }
+    }
+
+}

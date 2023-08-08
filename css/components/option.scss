@@ -1,0 +1,71 @@
+.option__open svg {
+    width: 2rem;
+    height: 2rem;
+    fill: black;
+}
+
+.option__icon {
+    width: 2.625rem;
+    height: 2.625rem;
+    fill: #fff;
+}
+
+.option {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 5.6875rem;
+    height: 5.6875rem;
+    background: #9a9a9a;
+    border-radius: 4px;
+    margin-bottom: 1.5625rem;
+
+    @include tablets{
+        display: none
+    }
+}
+
+.option:hover {
+    background: #6E6E6E;
+}
+
+.option:hover > .option__open {
+    display: block;
+}
+
+.option__open {
+    display: none;
+    border-radius: 4px;
+    background-color: rgba(255,255,255, 0.8);
+    width: 17.0625rem;
+    position: absolute;
+    top: 0;
+    right: -17.0625rem; 
+}
+
+.option-list {
+    padding: 1.125rem 0.875rem;
+}
+
+.option-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.625rem;
+    height: 2.6875rem;
+    color: black;
+}
+
+.option-item__icon {
+    text-align: center;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1.4375rem;
+}
+
+.option-item__weight {
+    margin-left: auto;
+}
+

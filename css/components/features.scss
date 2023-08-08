@@ -1,0 +1,13 @@
+.features {
+    display: flex; 
+    font-family: 'Play', sans-serif;
+    font-size: rem(16px);
+}
+
+.features__item {
+    margin-right: rem(17px);
+
+    &:last-child {
+        margin-right: 0;
+    }
+}

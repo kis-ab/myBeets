@@ -1,0 +1,18 @@
+.feature {
+    display: flex;
+}
+
+.feature__icon {
+    width: rem(40px);
+    margin-right: rem(11px);
+}
+
+.feature__text {
+    max-width: rem(107px);
+    line-height: 1.1;
+}
+
+.feature__noise, .feature__charging, .feature__plug {
+    width: rem(41px);
+    height: rem(41px);
+}
