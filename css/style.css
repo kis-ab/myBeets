@@ -106,7 +106,7 @@ button {
   position: relative;
 }
 .hero::before {
-  content: url(../../img/hero_bg.png);
+  content: url(../img/hero_bg.png);
   display: block;
   width: 2.5625rem;
   height: 2.5625rem;
@@ -115,7 +115,7 @@ button {
   right: 15%;
 }
 .hero__container {
-  background: url(../../img/Ellipse.png) right bottom 3.125rem/50% auto no-repeat;
+  background: url(../img/Ellipse.png) right bottom 3.125rem/50% auto no-repeat;
   height: 100vh;
   min-height: 40.625rem;
   padding-top: 1.5rem;
@@ -166,7 +166,7 @@ button {
     display: block;
     width: 20.1875rem;
     height: 20.1875rem;
-    background: url("../../img/Ellipse-small.png") center center/contain no-repeat;
+    background: url("../img/Ellipse-small.png") center center/contain no-repeat;
     margin-bottom: 0.5625rem;
   }
 }
@@ -380,7 +380,7 @@ button {
   }
 }
 .benefits__item::before {
-  content: url("../../img/separator.png");
+  content: url("../img/separator.png");
   position: absolute;
   top: 3.3125rem;
   right: 0;
@@ -459,7 +459,7 @@ button {
   position: relative;
 }
 .benefits-section::after {
-  content: url("../../img/triangle.png");
+  content: url("../img/triangle.png");
   display: block;
   width: 2.125rem;
   height: 2.125rem;
@@ -639,7 +639,7 @@ button {
   position: relative;
 }
 .reviews-section:after {
-  content: url("../../img/circle.png");
+  content: url("../img/circle.png");
   display: block;
   width: 2.1875rem;
   height: 2.1875rem;
@@ -791,7 +791,7 @@ button {
   border-radius: 0.25rem;
 }
 .radio_checkbox .radio__visible::before {
-  background: url("../../img/checkmark.png") center center no-repeat;
+  background: url("../img/checkmark.png") center center no-repeat;
 }
 
 .radio__elem {
@@ -988,7 +988,7 @@ button {
 }
 
 .map {
-  background: url("../../img/map.png") center center/cover no-repeat;
+  background: url("../img/map.png") center center/cover no-repeat;
   width: 100%;
   height: calc(100% - 74px);
 }
@@ -1317,7 +1317,7 @@ button {
   position: relative;
 }
 .slider-section::before {
-  content: url(../../img/Rectangle13.png);
+  content: url(../img/Rectangle13.png);
   display: block;
   width: 24px;
   height: 24px;
