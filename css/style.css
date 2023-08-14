@@ -1123,6 +1123,7 @@ button {
     transition: 0.5s;
   }
   .fullscreen-menu__close {
+    display: block;
     position: absolute;
     right: 1.25rem;
     top: 0.5625rem;
