@@ -1095,6 +1095,10 @@ button {
   height: 30px;
 }
 
+.fullscreen-menu__close {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .fullscreen-menu {
     background: rgba(0, 0, 0, 0.9);
