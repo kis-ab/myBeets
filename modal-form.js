@@ -89,7 +89,7 @@ $(".form").on("submit", e => {
     closeElement.addEventListener("click", e => {
       e.preventDefault();
       body.removeChild(overlayElement);
-  
+      body.classList.remove('body_closed');
     });
     overlayElement.appendChild(containerElement);
     containerElement.appendChild(closeElement);
@@ -99,10 +99,12 @@ $(".form").on("submit", e => {
     containerElement.appendChild(closeButton);
   
     body.appendChild(overlayElement);
+    body.classList.add('body_closed');
 
     $(".app-submit-btn").click( e => {
       e.preventDefault();
       body.removeChild(overlayElement);
+      body.classList.remove('body_closed');
     });
 }
 
